@@ -1,0 +1,35 @@
+{
+  "name": "moti.js",
+  "version": "0.0.0",
+  "description": "A tiny, promise-based, functional CSS3 animation library in JavaScript.",
+  "main": "dist/moti.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minznerjosh/moti.js.git"
+  },
+  "keywords": [
+    "animation",
+    "tweening",
+    "transform",
+    "css",
+    "css3",
+    "translate",
+    "promises",
+    "promise",
+    "promises-a",
+    "promises-aplus",
+    "future",
+    "browser",
+    "raf",
+    "requestAnimationFrame"
+  ],
+  "author": "Joshua D. Minzner",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/minznerjosh/moti.js/issues"
+  },
+  "homepage": "https://github.com/minznerjosh/moti.js"
+}
