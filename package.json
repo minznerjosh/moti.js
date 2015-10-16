@@ -4,7 +4,8 @@
   "description": "A tiny, promise-based, functional CSS3 animation library in JavaScript.",
   "main": "dist/moti.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "prepublish": "gulp build"
   },
   "repository": {
     "type": "git",
