@@ -20,4 +20,11 @@ gulp.task('tdd', function(done) {
     }, done);
 });
 
+gulp.task('test', function(done) {
+    karma.start({
+        configFile: path.resolve(process.cwd(), './test/karma.conf.js'),
+        singleRun: true
+    }, done);
+});
+
 gulp.task('default', ['build']);
